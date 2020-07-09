@@ -1,0 +1,1 @@
+# doctrine-discriminator-map-bundle
