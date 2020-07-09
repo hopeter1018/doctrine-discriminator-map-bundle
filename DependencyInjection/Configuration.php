@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('ho_peter1018_doctrine_discriminator_map');
+        $rootNode = $treeBuilder->root('hopeter1018_doctrine_discriminator_map');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
