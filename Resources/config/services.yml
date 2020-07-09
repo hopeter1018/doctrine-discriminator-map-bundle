@@ -1,0 +1,4 @@
+services:
+  HoPeter1018\DoctrineDiscriminatorMapBundle\EventSubscriber\DiscriminatorEntryListener:
+    tags:
+      - { name: doctrine.event_listener, event: loadClassMetadata }
