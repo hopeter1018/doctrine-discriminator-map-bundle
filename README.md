@@ -24,7 +24,7 @@ Add `/config/bundles.php`
 ```php
 return [
   ...,
-  HoPeter1018\SequentialCounterFormatBundle\HoPeter1018DoctrineDiscriminatorMapBundle::class => ['all' => true],
+  HoPeter1018\DoctrineDiscriminatorMapBundle\HoPeter1018DoctrineDiscriminatorMapBundle::class => ['all' => true],
 ];
 ```
 
@@ -35,7 +35,7 @@ Add `/app/AppKernel.php`
 ```php
 $bundles = [
   ...,
-  new HoPeter1018\SequentialCounterFormatBundle\HoPeter1018DoctrineDiscriminatorMapBundle(),
+  new HoPeter1018\DoctrineDiscriminatorMapBundle\HoPeter1018DoctrineDiscriminatorMapBundle(),
 ];
 ```
 
